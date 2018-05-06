@@ -1,0 +1,20 @@
+﻿2018/05/06 21:27:17 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Xtion2Sample\Xtion2Sample.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\OpenNI2\Include" /IC:\OpenCV3.1.0\vs2013\x64\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>C:\OpenCV3.1.0\vs2013\x64\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>C:\OpenCV3.1.0\vs2013\x64\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>C:\OpenCV3.1.0\vs2013\x64\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>main.cpp(110): warning C4101: 'e' : ローカル変数は 1 度も使われていません。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\x64\Release\Xtion2Sample.exe" /NOLOGO /LIBPATH:C:\OpenCV3.1.0\vs2013\x64\lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\x64\Release\Xtion2Sample.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\x64\Release\Xtion2Sample.lib" /MACHINE:X64 x64\Release\main.obj
+         x64\Release\opencv.obj
+         コード生成しています。
+         コード生成が終了しました。
+         Xtion2Sample.vcxproj -> C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\x64\Release\Xtion2Sample.exe
+     1>プロジェクト "C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Xtion2Sample\Xtion2Sample.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:03.07

@@ -1,0 +1,11 @@
+﻿2018/05/05 20:06:56 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Xtion2Sample\Xtion2Sample.vcxproj" (Build ターゲット)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Release\Xtion2Sample.exe" /NOLOGO /LIBPATH:C:\OpenCV3.1.0\vs2013\x86\lib /LIBPATH:"C:/Program Files (x86)/OpenNI2/Lib" /LIBPATH:"C:/Program Files (x86)/PrimeSense/NiTE2/Include" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Release\Xtion2Sample.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Release\Xtion2Sample.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\opencv.obj
+     1>opencv_highgui310.lib(opencv_highgui310.dll) : fatal error LNK1112: モジュールのコンピューターの種類 'x64' は対象コンピューターの種類 'X86' と競合しています。
+     1>プロジェクト "C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Xtion2Sample\Xtion2Sample.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.41

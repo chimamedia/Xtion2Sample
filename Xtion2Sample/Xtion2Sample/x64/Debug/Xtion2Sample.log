@@ -1,0 +1,23 @@
+﻿2018/05/01 14:43:11 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Xtion2Sample\Xtion2Sample.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\OpenNI2\Include" /IC:\OpenCV3.1.0\vs2013\x64\include /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp opencv.h
+         opencv.h
+     1>C:\OpenCV3.1.0\vs2013\x64\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>C:\OpenCV3.1.0\vs2013\x64\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>C:\OpenCV3.1.0\vs2013\x64\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+         main.cpp
+     1>C:\OpenCV3.1.0\vs2013\x64\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>C:\OpenCV3.1.0\vs2013\x64\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>C:\OpenCV3.1.0\vs2013\x64\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>main.cpp(208): warning C4101: 'e' : ローカル変数は 1 度も使われていません。
+         コードを生成中...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\x64\Debug\Xtion2Sample.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\OpenCV3.1.0\vs2013\x64\lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\x64\Debug\Xtion2Sample.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\x64\Debug\Xtion2Sample.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\opencv.obj
+         Xtion2Sample.vcxproj -> C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\x64\Debug\Xtion2Sample.exe
+     1>プロジェクト "C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Xtion2Sample\Xtion2Sample.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:03.28
