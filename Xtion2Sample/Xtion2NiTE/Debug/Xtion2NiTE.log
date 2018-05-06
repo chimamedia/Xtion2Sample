@@ -1,0 +1,11 @@
+﻿2018/04/29 16:29:59 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Xtion2NiTE\Xtion2NiTE.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Xtion2Sample\GL /I"C:\Program Files\OpenNI2\Include" /IC:\OpenCV3.1.0\vs2013\x64\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\sho.ooi\onedrive\visualstudio2013\projects\xtion2sample\xtion2nite\openni2.h(4): fatal error C1083: include ファイルを開けません。'NiTE.h':No such file or directory
+     1>プロジェクト "C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Xtion2NiTE\Xtion2NiTE.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.91

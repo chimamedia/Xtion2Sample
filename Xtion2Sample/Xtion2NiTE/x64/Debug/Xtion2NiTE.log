@@ -1,0 +1,24 @@
+﻿2018/05/01 14:43:14 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Xtion2NiTE\Xtion2NiTE.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\PrimeSense\NiTE2\Include" /I"C:\Program Files\OpenNI2\Include" /IC:\OpenCV3.1.0\vs2013\x64\include /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>C:\OpenCV3.1.0\vs2013\x64\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>C:\OpenCV3.1.0\vs2013\x64\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>C:\OpenCV3.1.0\vs2013\x64\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>c:\users\sho.ooi\onedrive\visualstudio2013\projects\xtion2sample\xtion2nite\openni2.h(169): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>main.cpp(166): warning C4101: 'e' : ローカル変数は 1 度も使われていません。
+     1>c:\users\sho.ooi\onedrive\visualstudio2013\projects\xtion2sample\xtion2nite\openni2.h(57): warning C4244: '初期化中' : 'const float' から 'int' への変換です。データが失われる可能性があります。
+                 c:\users\sho.ooi\onedrive\visualstudio2013\projects\xtion2sample\xtion2nite\openni2.h(128) : コンパイルされたクラスの テンプレート のインスタンス化 'void GetDepthData<float>(const openni::VideoFrameRef &,const T,const T,T &)' の参照を確認してください
+                 with
+                 [
+                     T=float
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\x64\Debug\Xtion2NiTE.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\PrimeSense\NiTE2\Lib" /LIBPATH:C:\OpenCV3.1.0\vs2013\x64\lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\x64\Debug\Xtion2NiTE.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\x64\Debug\Xtion2NiTE.lib" /MACHINE:X64 x64\Debug\main.obj
+         Xtion2NiTE.vcxproj -> C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\x64\Debug\Xtion2NiTE.exe
+     1>プロジェクト "C:\Users\SHO.OOI\OneDrive\VisualStudio2013\Projects\Xtion2Sample\Xtion2NiTE\Xtion2NiTE.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:02.21
